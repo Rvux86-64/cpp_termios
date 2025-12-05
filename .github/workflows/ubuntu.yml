@@ -23,5 +23,6 @@ jobs:
     - name: Build C++ App
       run: |
         g++ main.cpp -o app
+        ldd ./app
         file app
         ./app
