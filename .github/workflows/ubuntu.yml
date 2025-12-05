@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y build-essential gcc g++ 
+        sudo apt install -y build-essential gcc g++ gdb
 
     - name: Build C++ App
       run: |
