@@ -22,5 +22,6 @@ jobs:
 
     - name: Build C++ App
       run: |
-        g++ main.cpp -o app.so
-        ./app.so
+        g++ main.cpp -o app
+        file app
+        ./app
