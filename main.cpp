@@ -103,5 +103,4 @@ int main() {
         std::this_thread::sleep_for(std::chrono::milliseconds(30));
     }
 }
-You, 3 min
 
